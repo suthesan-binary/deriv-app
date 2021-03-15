@@ -672,7 +672,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat_logout/js/core.main~App_Components_E.d6ed5059e657bba76ca1.js",
     "revision": null
   }, {
-    "url": "/br_livechat_logout/js/core.main~Se.86c08220171a6ac9bc07.js",
+    "url": "/br_livechat_logout/js/core.main~Se.1fa2f3c4797d0e17c093.js",
     "revision": null
   }, {
     "url": "/br_livechat_logout/js/core.main~Stores_b.6ee4ba2ffdfb84c10cf1.js",
@@ -717,7 +717,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat_logout/js/core.main~components_src_components_l.c125e7f3e8b5b47a5be6.js",
     "revision": null
   }, {
-    "url": "/br_livechat_logout/js/core.main~s.7a6249fb0c4b17d35fab.js",
+    "url": "/br_livechat_logout/js/core.main~s.fa2dd26c1b4298ece5c2.js",
     "revision": null
   }, {
     "url": "/br_livechat_logout/js/core.reality-check-modal.5fc04f9ae9b052e50901.js",
