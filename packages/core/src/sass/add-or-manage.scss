@@ -1,0 +1,148 @@
+.add-or-manage {
+    flex-direction: row; /* fix for Safari */
+    flex-wrap: wrap;
+
+    form {
+        flex-direction: column;
+    }
+    @include mobile {
+        flex-direction: column;
+        flex-wrap: unset;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        & .account-wizard__btn-area {
+            & .dc-btn,
+            & .dc-btn:last-child {
+                min-width: unset;
+                margin: 0 1.6rem;
+            }
+        }
+        & .change-currency {
+            margin-bottom: 1.6rem;
+        }
+    }
+}
+
+.success-change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+
+    &__icon-area {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 3rem;
+
+        .bottom-right-overlay {
+            position: absolute;
+            bottom: 0;
+            right: 0rem;
+            width: 3rem;
+            height: 3rem;
+        }
+        svg.inline-icon {
+            width: 90px;
+            height: 120px;
+        }
+        svg {
+            display: block;
+
+            @include mobile {
+                max-width: 96px;
+                height: auto;
+            }
+        }
+        &--xlarge,
+        &--large {
+            width: auto;
+
+            .bottom-right-overlay {
+                width: 48px;
+                height: 48px;
+                right: 0;
+
+                @include mobile {
+                    max-width: 36px;
+                    height: auto;
+                }
+            }
+        }
+        &--xlarge {
+            svg:first-child {
+                width: 128px;
+                height: 128px;
+            }
+        }
+        &--large {
+            svg.inline-icon {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+    &__body-area {
+        flex-grow: 1;
+
+        h2 {
+            @include typeface(--title-center-bold-black);
+            margin-top: 2rem;
+            color: var(--text-general);
+
+            @include mobile {
+                line-height: 24px;
+                margin: 1.6rem 0 0.8rem;
+            }
+        }
+        p {
+            @include typeface(--paragraph-left-normal-black);
+            padding: 1rem;
+            text-align: center;
+            text-transform: none;
+            color: var(--text-general);
+
+            @include mobile {
+                padding: 0 1rem;
+            }
+        }
+        @include mobile {
+            flex-grow: unset;
+        }
+    }
+    &__btn-area {
+        margin: 3rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        & .dc-btn {
+            margin: 0 2rem;
+            height: 4rem;
+
+            @include mobile {
+                width: 100%;
+                margin: 0 0.8rem;
+            }
+        }
+        @include mobile {
+            position: absolute;
+            bottom: 0;
+            margin: 0;
+            height: 88px;
+            align-items: center;
+            width: calc(100% - 1.6rem);
+            border-top: 1px solid var(--border-disabled);
+        }
+    }
+    @include mobile {
+        justify-content: flex-start;
+        flex-grow: unset;
+        height: 33rem;
+    }
+}
