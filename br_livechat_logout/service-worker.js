@@ -717,7 +717,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_livechat_logout/js/core.main~components_src_components_l.c125e7f3e8b5b47a5be6.js",
     "revision": null
   }, {
-    "url": "/br_livechat_logout/js/core.main~s.fa2dd26c1b4298ece5c2.js",
+    "url": "/br_livechat_logout/js/core.main~s.e0bfa31ffd8c3137e88d.js",
     "revision": null
   }, {
     "url": "/br_livechat_logout/js/core.reality-check-modal.5fc04f9ae9b052e50901.js",
