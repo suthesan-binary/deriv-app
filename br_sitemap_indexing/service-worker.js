@@ -717,7 +717,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "url": "/br_sitemap_indexing/js/core.main~components_src_components_l.bf847f0c1ddf37467916.js",
     "revision": null
   }, {
-    "url": "/br_sitemap_indexing/js/core.main~s.5f7f22177656027dbbb3.js",
+    "url": "/br_sitemap_indexing/js/core.main~s.b1cb1811477f5c19e6d5.js",
     "revision": null
   }, {
     "url": "/br_sitemap_indexing/js/core.reality-check-modal.9e8cfa7b2bde446f4384.js",
@@ -1069,7 +1069,7 @@ define("./service-worker.js",['./workbox-972bde33'], function (workbox) { 'use s
     "revision": "46264d8b921a1db0c1b97979b1265353"
   }, {
     "url": "/br_sitemap_indexing/robots.txt",
-    "revision": "4922019edea24ece6359b4bf2fb7ddf6"
+    "revision": "089ebc0dcc218ff0acfb984a7275dff7"
   }, {
     "url": "/br_sitemap_indexing/sitemap.xml",
     "revision": "4f36bf94ff485e6aeb5881b5166a137f"
